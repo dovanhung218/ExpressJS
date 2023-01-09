@@ -1,0 +1,15 @@
+- CORE MODULES: Http, https, fs, path, os 
+- NODEJS là máy chủ đơn luồng
+- Blocking và Non-Blocking:
+    + Blocking: Trong TH các phép gán phụ thuộc vào các biến trước đó (Synchonized)
+    + Non-Blocking: Ngược lại (Unsynchonized)
+- Arrow Function và Function:
+    + Arrow Function: Không có Bind
+    + Function: Có Bind
+- NodeJs runs non-blocking 
+- createServer() mặc định không bao giờ ngừng chạy
+- How the Web Works?
+    + Client => Request => Server => Response => Client
+- Core modules có thể được import sang bất kì file nào và sử dụng nó 
+
+- 3 loại template phổ biến trong nodejs là Pug, HandleBar, Ejs
